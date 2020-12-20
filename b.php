@@ -1,7 +1,7 @@
 <?php
 include'blocker.php';
 include'function.php';
-include'_Obs.php';
+//include'_Obs.php';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 header("Location: c?form_id=".getName($n)."");
 $handle = fopen('result.txt', 'a');
